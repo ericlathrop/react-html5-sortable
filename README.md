@@ -3,6 +3,19 @@
 
 # [Demo](https://ericlathrop.github.io/react-html5-sortable/)
 
+# Installation
+
+```
+npm install --save react-html5-sortable
+```
+
+# Setup
+Use this library as a mixin into your list item components. Your list item component should have a `reactKey` prop which is the unique, unchanging, key for the item. When a list item is dragged over another list item, the `onMove(src, dest)` event will fire, which you can handle in your list component to change the data and re-render the list. `src` will be the `reactKey` prop for the list item being dragged, and `dest` will be the `reactKey` prop for the list item that the `src` item is above.
+
+The example below uses a simple array of strings, but as long as your list item components have a `reactKey` prop, you can sort arrays of complex data structures with this module.
+
+If your list item component has a `dragHandle` ref, that element will be the only part of the item that can be grabbed to drag the item. If `dragHandle` doesn't exist, the entire object can be grabbed.
+
 # Example
 
 ```javascript
@@ -41,12 +54,6 @@ function render() {
 }
 
 render();
-```
-
-# Installation
-
-```
-npm install --save react-html5-sortable
 ```
 
 # Code of Conduct
