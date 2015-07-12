@@ -1,0 +1,29 @@
+{
+  "name": "react-html5-sortable",
+  "version": "0.0.0",
+  "description": "aaa",
+  "main": "lib/sortable.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericlathrop/react-html5-sortable.git"
+  },
+  "keywords": [
+    "html5",
+    "sortable",
+    "react",
+    "react-component",
+    "drag",
+    "drop",
+    "dnd",
+    "reactjs"
+  ],
+  "author": "Eric Lathrop <eric@ericlathrop.com> (http://ericlathrop.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericlathrop/react-html5-sortable/issues"
+  },
+  "homepage": "https://github.com/ericlathrop/react-html5-sortable"
+}
