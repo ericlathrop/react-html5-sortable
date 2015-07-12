@@ -58,6 +58,12 @@
     },
     "env": {
         "node": true,
-        "mocha": true
-    }
+        "browser": true
+    },
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "plugins": [
+        "react"
+    ]
 }

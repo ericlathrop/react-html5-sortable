@@ -4,7 +4,8 @@
   "description": "aaa",
   "main": "lib/sortable.js",
   "scripts": {
-    "lint": "eslint lib"
+    "lint": "eslint --ext .js --ext .jsx lib",
+    "demo": "npm run lint && browserify demo/demo.jsx -o demo/index.js -t reactify"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,10 @@
   },
   "homepage": "https://github.com/ericlathrop/react-html5-sortable",
   "devDependencies": {
-    "eslint": "^0.24.1"
+    "browserify": "^10.2.6",
+    "eslint": "^0.24.1",
+    "eslint-plugin-react": "^2.7.0",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1"
   }
 }
