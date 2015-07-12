@@ -4,7 +4,7 @@
   "description": "aaa",
   "main": "lib/sortable.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint lib"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/ericlathrop/react-html5-sortable/issues"
   },
-  "homepage": "https://github.com/ericlathrop/react-html5-sortable"
+  "homepage": "https://github.com/ericlathrop/react-html5-sortable",
+  "devDependencies": {
+    "eslint": "^0.24.1"
+  }
 }
