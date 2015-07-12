@@ -38,6 +38,8 @@ var MyList = React.createClass({
 });
 
 var items = ["First Item", "Second Item", "Third Item", "Fourth Item", "Fifth Item"];
+
+// If you're using [Flux](https://facebook.github.io/flux/), this would probably live in your Store
 function move(src, dest) {
 	var srcIdx = items.indexOf(src);
 	var destIdx = items.indexOf(dest);
@@ -50,7 +52,7 @@ function move(src, dest) {
 }
 
 function render() {
-	React.render(<MyList items={items} onMove={move.bind(this, items)} />, document.getElementById("list-demo"));
+	React.render(<MyList items={items} onMove={move} />, document.getElementById("list-demo"));
 }
 
 render();
