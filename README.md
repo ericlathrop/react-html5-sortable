@@ -1,5 +1,5 @@
 # react-html5-sortable
-[React](https://facebook.github.io/react/) mixin for drag-and-drop sorting of items in a container
+[React](https://facebook.github.io/react/) mixin for HTML5 drag-and-drop sorting of items in a container
 
 # [Demo](https://ericlathrop.github.io/react-html5-sortable/)
 

@@ -1,7 +1,7 @@
 {
   "name": "react-html5-sortable",
   "version": "0.0.0",
-  "description": "aaa",
+  "description": "React mixin for HTML5 drag-and-drop sorting of items in a container",
   "main": "lib/sortable.js",
   "scripts": {
     "lint": "eslint --ext .js --ext .jsx lib",
@@ -12,14 +12,20 @@
     "url": "https://github.com/ericlathrop/react-html5-sortable.git"
   },
   "keywords": [
-    "html5",
-    "sortable",
     "react",
+    "reactjs",
     "react-component",
+    "react-sortable",
+    "component",
+    "sort",
+    "sortable",
     "drag",
     "drop",
     "dnd",
-    "reactjs"
+    "list",
+    "sortalbe list",
+    "sortalbe-list",
+    "html5"
   ],
   "author": "Eric Lathrop <eric@ericlathrop.com> (http://ericlathrop.com/)",
   "license": "MIT",
